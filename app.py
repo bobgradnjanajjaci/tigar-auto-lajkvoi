@@ -4,7 +4,7 @@ from auto_brain_core import process_video
 
 app = Flask(__name__)
 
-MAX_LINKS_PER_RUN = 6
+MAX_LINKS_PER_RUN = 10
 SLEEP_BETWEEN_LINKS = 1.5
 
 HTML = """
@@ -12,7 +12,7 @@ HTML = """
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Auto TikTok Comment Likes JAHJA 9998</title>
+  <title>Auto TikTok Comment Likes tigar 9998</title>
   <style>
     body{font-family:system-ui;background:#0b1220;color:#e5e7eb;display:flex;justify-content:center;padding:24px}
     .card{width:100%;max-width:900px;background:#0f172a;border:1px solid #334155;border-radius:16px;padding:18px}
@@ -59,6 +59,7 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
