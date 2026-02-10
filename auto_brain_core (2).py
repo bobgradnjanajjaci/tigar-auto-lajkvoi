@@ -2,9 +2,9 @@ import requests
 from comment_finder import find_target_comment
 from like_rules import calculate_target_likes
 
-API_KEY = "44358011a5438dfc856eebc5ca4928ee"
-PANEL_URL = "https://justanotherpanel.com/api/v2"
-SERVICE_ID = 9998
+API_KEY = "bb5b7862f2b2f2f7d43bcddc35f8c15f"
+PANEL_URL = "https://smmtigers.com/api/v2"
+SERVICE_ID = 4564
 
 def process_video(video_url: str):
     result = find_target_comment(video_url)
@@ -45,4 +45,5 @@ def process_video(video_url: str):
             "status": "error",
             "message": f"Panel request failed: {e}"
         }
+
 
