@@ -4,7 +4,7 @@ from auto_brain_core import process_video
 
 app = Flask(__name__)
 
-MAX_LINKS_PER_RUN = 10
+MAX_LINKS_PER_RUN = 7
 SLEEP_BETWEEN_LINKS = 1.5
 
 HTML = """
@@ -59,6 +59,7 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
